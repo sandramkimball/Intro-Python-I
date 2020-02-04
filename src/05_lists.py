@@ -34,4 +34,7 @@ print(len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-print(map(x * 1000))
+for num in x(
+    return num * 1000
+)
+print(x)
