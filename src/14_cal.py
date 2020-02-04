@@ -33,8 +33,8 @@ from datetime import datetime
 
 def do_some_month_thingy(*argv):
   if not argv:
-    print(calendar.monthcalendar(calendar.month(datetime.month, datetime.year)))
+    print(calendar.monthcalendar(datetime.month, datetime.year))
   if argv == 2:
-    print(calendar.monthcalendar(calendar.month(argv[1], datetime.year)))
+    print(calendar.monthcalendar((argv[1], datetime.year))
   else:
-    print(calendar.month(argv[1], argv[2]) )
+    print(calendar.month(argv[1], argv[2]))
