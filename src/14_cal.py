@@ -31,10 +31,10 @@ import sys
 import calendar
 from datetime import datetime
 
-def do_some_month_thingy(*argv):
+def do_some_month_thingy(argv):
   if not argv:
-    print(calendar.monthcalendar(datetime.month, datetime.year))
-  if argv == 2:
-    print(calendar.monthcalendar((argv[1], datetime.year))
-  else:
-    print(calendar.month(argv[1], argv[2]))
+    return (calendar.monthcalendar(datetime.month, datetime.year))
+  if leng(argv) == 2:
+    return (calendar.monthcalendar((argv[1], datetime.year))
+  if leng(argv) > 2:
+    return(calendar.month(argv[1], argv[2]))
