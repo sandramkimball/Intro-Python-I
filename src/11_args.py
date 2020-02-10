@@ -11,6 +11,7 @@ print(f1(1, 2))
 # Note: Google for "python arbitrary arguments" and look for "*args"
 def f2(*argv):
     return sum(argv)
+    
 print(f2(1))                    # Should print 1
 print(f2(1, 3))                 # Should print 4
 print(f2(1, 4, -12))            # Should print -7

@@ -10,9 +10,9 @@ for more info regarding list comprehensions.
 
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 y = []
-for x in range(5):
-    y.append(x)
-print (y)
+for num in range(5):
+    y.append(num)
+print(y)
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
@@ -35,6 +35,5 @@ x = input("Enter comma-separated numbers: ").split(',')
 # What do you need between the square brackets to make it work?
 y = []
 for x in x:
-    y.append([0:2])
-
+    y.append([::2])
 print(y)
